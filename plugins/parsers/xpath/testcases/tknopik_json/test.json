@@ -1,0 +1,34 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "cluster:ovn_kube_master_latency:mean15m",
+          "datacenter": "ND-ZRSJC6P-DC",
+          "job": "ngn_sre_slo",
+          "pod": "ovnkube-master-c75b78449-b5g7l",
+          "thanos_ruler_replica": "thanos-ruler-int-0"
+        },
+        "value": [
+          1675680160.501,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "cluster:ovn_kube_master_latency:mean15m",
+          "datacenter": "ND-ZRSJC6P-DC",
+          "job": "ngn_sre_slo",
+          "pod": "ovnkube-master-c75b78449-jngzz",
+          "thanos_ruler_replica": "thanos-ruler-int-0"
+        },
+        "value": [
+          1675680160.501,
+          "0.20595238095238094"
+        ]
+      }
+    ]
+  }
+}

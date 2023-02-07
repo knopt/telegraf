@@ -1,0 +1,2 @@
+prometheus cluster:ovn_kube_master_latency:mean15m="0.20595238095238094" 1675680160
+prometheus cluster:ovn_kube_master_latency:mean15m="0" 1675680160

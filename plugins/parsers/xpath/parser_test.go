@@ -1,6 +1,7 @@
 package xpath
 
 import (
+	"fmt"
 	"math"
 	"os"
 	"path/filepath"
@@ -1471,6 +1472,9 @@ func TestMultipleConfigs(t *testing.T) {
 
 			// Process expected metrics and compare with resulting metrics
 			actual := acc.GetTelegrafMetrics()
+
+			fmt.Fprintf(os.Stderr, "actual: %+v\n", actual)
+
 			testutil.RequireMetricsEqual(t, expected, actual, options...)
 		})
 	}
